@@ -8,22 +8,19 @@ const Services = () => {
       title: 'Health Insurance',
       description: 'Comprehensive medical cover for individuals, families and corporate groups with access to top-tier facilities.',
       icon: <Shield className="text-secondary" size={24} />,
-      image: healthImage,
-      tag: 'Healthcare'
+      image: healthImage
     },
     {
       title: 'Motor Insurance',
       description: 'Comprehensive and third party motor insurance for private and commercial vehicles.',
       icon: <Car className="text-secondary" size={24} />,
-      image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800',
-      tag: 'Vehicle'
+      image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800'
     },
     {
       title: 'Property Insurance',
       description: 'Fire, burglary, and domestic package insurance to protect your property and assets.',
       icon: <Home className="text-secondary" size={24} />,
-      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800',
-      tag: 'Assets'
+      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800'
     }
   ];
 
@@ -60,11 +57,6 @@ const Services = () => {
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors duration-500"></div>
-                <div className="absolute top-4 left-4">
-                  <span className="text-[9px] font-bold text-white uppercase tracking-[0.2em] bg-primary/60 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/10">
-                    {product.tag}
-                  </span>
-                </div>
               </div>
               
               {/* Content Section - Bottom 60% */}
