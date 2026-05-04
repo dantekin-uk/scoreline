@@ -20,7 +20,7 @@ const Hero = () => {
       title: 'Comprehensive',
       highlight: 'Health Insurance',
       description: 'Complete health coverage for individuals and families. Access to premium healthcare facilities nationwide with cashless treatments.',
-      image: 'https://images.unsplash.com/photo-1505751172107-597d5a4d4b1b?auto=format&fit=crop&q=80&w=1920',
+      image: 'https://images.unsplash.com/photo-1530490125459-847a6d437825?auto=format&fit=crop&q=80&w=1920',
     },
     {
       title: 'Personal Injury',
