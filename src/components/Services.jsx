@@ -1,5 +1,6 @@
 import React from 'react';
 import { Shield, Car, Home, ArrowRight } from 'lucide-react';
+import healthImage from '../assets/life2.jpg';
 
 const Services = () => {
   const products = [
@@ -7,7 +8,7 @@ const Services = () => {
       title: 'Health Insurance',
       description: 'Comprehensive medical cover for individuals, families and corporate groups with access to top-tier facilities.',
       icon: <Shield className="text-secondary" size={24} />,
-      image: 'https://images.unsplash.com/photo-1530490125459-847a6d437825?auto=format&fit=crop&q=80&w=800',
+      image: healthImage,
       tag: 'Healthcare'
     },
     {

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+import healthImage from '../assets/life2.jpg';
 
 const Hero = () => {
   const carouselItems = [
@@ -20,7 +21,7 @@ const Hero = () => {
       title: 'Comprehensive',
       highlight: 'Health Insurance',
       description: 'Complete health coverage for individuals and families. Access to premium healthcare facilities nationwide with cashless treatments.',
-      image: 'https://images.unsplash.com/photo-1530490125459-847a6d437825?auto=format&fit=crop&q=80&w=1920',
+      image: healthImage,
     },
     {
       title: 'Personal Injury',
