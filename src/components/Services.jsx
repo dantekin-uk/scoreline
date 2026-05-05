@@ -43,11 +43,11 @@ const Services = () => {
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="flex overflow-x-auto pb-8 gap-6 md:grid md:grid-cols-3 md:gap-8 snap-x snap-mandatory scrollbar-hide -mx-4 px-4 sm:mx-0 sm:px-0">
           {products.map((product, index) => (
             <div 
               key={index}
-              className="group relative flex flex-col h-[380px] bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 border border-neutral/50 cursor-pointer"
+              className="group relative flex-shrink-0 w-[280px] sm:w-[320px] md:w-auto flex flex-col h-[380px] bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 border border-neutral/50 cursor-pointer snap-center"
             >
               {/* Image Section - Top 40% */}
               <div className="relative h-40 overflow-hidden">
