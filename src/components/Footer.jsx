@@ -49,8 +49,7 @@ const Footer = () => {
             </div>
             <div className="space-y-4">
               <p className="text-neutral/60 text-[13px] leading-relaxed max-w-sm">
-                A leading insurance service provider dedicated to adequate protection for your risks. Founded in 2012 and incorporated as an Insurance Broker in 2017.
-              </p>
+               Scoreline Insurance Brokers Ltd is one of the leading insurance service providers in Kenya, offering comprehensive insurance solutions and risk management services 
               <div className="inline-flex items-center gap-2 px-2.5 py-1.5 rounded-lg bg-white/5 border border-white/10 text-[10px] font-bold uppercase tracking-wider text-secondary">
                 <ShieldCheck size={12} />
                 <span>Licensed By IRA Kenya</span>
