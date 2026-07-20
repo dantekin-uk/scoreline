@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import aar from '../assets/partners/aar.png';
 import britam from '../assets/partners/britam.png';
 import madison from '../assets/partners/madison.jpg';
@@ -44,11 +45,17 @@ const Partners = () => {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-8">
+        <motion.div
+          className="text-center mb-8"
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
+        >
           <h2 className="text-xs sm:text-sm font-bold uppercase tracking-[0.3em] text-primary/40 font-poppins">
             Our Trusted Partners
           </h2>
-        </div>
+        </motion.div>
 
         {/* Scrolling logos container */}
         <div className="relative flex overflow-hidden">

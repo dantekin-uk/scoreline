@@ -64,7 +64,7 @@ const StatsFloatingDock = () => {
   }, []);
 
   return (
-    <div className="flex justify-center -translate-y-16 sm:-translate-y-20 relative z-20 px-3 sm:px-4 md:px-6 lg:px-8 mb-16 sm:mb-20">
+    <div className="flex justify-center relative z-20 px-3 sm:px-4 md:px-6 lg:px-8 mb-16 sm:mb-20 mt-8">
       <div className={`w-full max-w-6xl transform transition-all duration-1000 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
       }`}>
