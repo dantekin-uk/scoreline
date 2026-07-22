@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, BookOpen } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import healthImage from '../assets/life2.jpg';
+import pill8Image from '../assets/pill8.jpeg';
 
 const Insights = () => {
   return (
@@ -12,7 +13,7 @@ const Insights = () => {
       >
         <div
           className="absolute inset-0 z-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${healthImage})` }}
+          style={{ backgroundImage: `url(${pill8Image})` }}
         />
         <div className="absolute inset-0 z-10 bg-gradient-to-r from-[#061126]/95 via-[#061126]/72 to-[#061126]/20" />
         <div className="absolute inset-0 z-10 bg-gradient-to-t from-[#061126]/80 via-transparent to-black/25" />

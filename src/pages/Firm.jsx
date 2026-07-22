@@ -2,6 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Compass, Target, ShieldCheck, Globe, Cpu, Handshake, BarChart3 } from 'lucide-react';
 import healthImage from '../assets/life2.jpg';
+import fimImage from '../assets/fim.jpeg';
+import fim1Image from '../assets/fim1.jpg';
+import pill5Image from '../assets/pill5.jpeg';
+import image3Image from '../assets/image3.jpg';
+import image7Image from '../assets/image7.jpeg';
 
 const Firm = () => {
   return (
@@ -14,7 +19,7 @@ const Firm = () => {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: `url(${healthImage})`,
+            backgroundImage: `url(${image7Image})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -158,26 +163,18 @@ const Firm = () => {
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.75, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
               >
-                <div className="group ml-auto w-full max-w-[360px] overflow-hidden rounded-2xl border border-primary/10 bg-white shadow-lg shadow-primary/10 transition-all duration-500 hover:shadow-xl hover:shadow-primary/15">
+                <div className="group ml-auto w-full max-w-[460px] overflow-hidden rounded-2xl border border-primary/10 bg-white shadow-lg shadow-primary/10 transition-all duration-500 hover:shadow-xl hover:shadow-primary/15">
                   <div className="relative overflow-hidden">
                     <div className="absolute inset-0 z-10 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
                       <div className="absolute inset-0 bg-gradient-to-t from-primary/45 via-transparent to-primary/15" />
                       <div className="absolute inset-0 border-2 border-white/35 rounded-2xl" />
                     </div>
                     <img
-                      src={healthImage}
+                      src={fimImage}
                       alt="Scoreline Reinsurance"
                       className="aspect-[4/4.4] w-full object-cover transition-all duration-700 group-hover:scale-[1.05] group-hover:brightness-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-primary/35 via-transparent to-transparent" />
-                    <div className="absolute inset-x-0 bottom-0 z-20 p-4 sm:p-5">
-                      <p
-                        className="max-w-[14rem] font-display text-sm font-semibold leading-snug tracking-tight text-white"
-                        style={{ fontFamily: "'Plus Jakarta Sans', Inter, system-ui, sans-serif" }}
-                      >
-                        Specialist advisory for resilient African insurance markets.
-                      </p>
-                    </div>
                   </div>
                 </div>
               </motion.div>
@@ -197,7 +194,7 @@ const Firm = () => {
           >
             <div
               className="absolute inset-0 bg-cover bg-center"
-              style={{ backgroundImage: `url(${healthImage})` }}
+              style={{ backgroundImage: `url(${image3Image})` }}
             />
             <div className="absolute inset-0 bg-gradient-to-br from-[#050c18]/95 via-[#123A66]/90 to-[#0F766E]/75" />
             <div className="relative z-10 p-5 sm:p-7 lg:p-8">
@@ -284,8 +281,7 @@ const Firm = () => {
               <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
                 style={{
-                  backgroundImage:
-                    'url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1600)',
+                  backgroundImage: `url(${fim1Image})`,
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-accent/90 via-accent/40 to-accent/20" />
@@ -450,9 +446,9 @@ const Firm = () => {
                 className="relative overflow-hidden rounded-2xl lg:col-span-2"
               >
                 <img
-                  src={healthImage}
+                  src={image7Image}
                   alt="Scoreline Reinsurance team collaboration"
-                  className="aspect-[4/3] w-full object-cover brightness-90 transition-transform duration-700 hover:scale-105"
+                  className="aspect-[4/3] w-full object-cover brightness-95 transition-transform duration-700 hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#050c18]/70 via-transparent to-secondary/10" />
               </motion.div>

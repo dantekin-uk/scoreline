@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
 import cap1Image from '../assets/cap1.jpg';
 import cap2Image from '../assets/cap2.jpeg';
+import cap6Image from '../assets/cap6.jpeg';
 import pill4Image from '../assets/pill4.jpeg';
 import pill5Image from '../assets/pill5.jpeg';
 
@@ -14,7 +15,7 @@ const capabilities = {
     description: 'Optimized programs to protect your balance sheet and capital.',
     buttonText: 'Explore Treaty',
     href: '/capabilities/treaty#treaty',
-    image: pill5Image,
+    image: cap6Image,
   },
   facultative: {
     id: 'facultative',

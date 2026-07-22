@@ -1,6 +1,13 @@
 import heroImage from '../assets/hero1.jpg';
 import heroMobileImage from '../assets/hero1mobile.jpg';
 import lifeImage from '../assets/life2.jpg';
+import cap1Image from '../assets/cap1.jpg';
+import cap2Image from '../assets/cap2.jpeg';
+import cap6Image from '../assets/cap6.jpeg';
+import image7Image from '../assets/image7.jpeg';
+import image13Image from '../assets/image13.jpeg';
+import pill4Image from '../assets/pill4.jpeg';
+import pill8Image from '../assets/pill8.jpeg';
 
 const groupMeta = {
   'risk-transfer': {
@@ -21,7 +28,7 @@ export const capabilityItems = [
     menuSubtext: 'Portfolio protection & capital efficiency',
     mobileLabel: 'Treaty Solutions',
     description: 'Comprehensive risk transfer programmes for balanced, resilient portfolios.',
-    image: heroImage,
+    image: cap1Image,
     accent: 'from-primary/90 via-primary/55 to-transparent',
     showOnHome: true,
     heroTitle: 'Treaty Reinsurance Solutions',
@@ -57,7 +64,7 @@ export const capabilityItems = [
     menuSubtext: 'Capacity for complex individual risks',
     mobileLabel: 'Facultative',
     description: 'Specialist global capacity for high-value and unusual individual exposures.',
-    image: lifeImage,
+    image: cap2Image,
     accent: 'from-primary/85 via-secondary/35 to-transparent',
     showOnHome: true,
     heroTitle: 'Specialized Facultative Reinsurance',
@@ -93,7 +100,7 @@ export const capabilityItems = [
     menuSubtext: 'Advocacy & recovery strategy',
     mobileLabel: 'Claims Consultancy',
     description: 'Expert advocacy to protect recoveries on complex and catastrophic losses.',
-    image: heroMobileImage,
+    image: cap6Image,
     accent: 'from-primary/90 via-primary/45 to-transparent',
     showOnHome: true,
     heroTitle: 'Expert Claims Consultancy',

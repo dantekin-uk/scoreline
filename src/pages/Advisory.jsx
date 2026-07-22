@@ -3,6 +3,11 @@ import { ArrowRight } from 'lucide-react';
 import healthImage from '../assets/life2.jpg';
 import heroImage from '../assets/hero1.jpg';
 import heroMobileImage from '../assets/hero1mobile.jpg';
+import adv1Image from '../assets/adv1.jpg';
+import adv2Image from '../assets/adv2.jpeg';
+import adv3Image from '../assets/adv3.jpeg';
+import image13Image from '../assets/image13.jpeg';
+import image12Image from '../assets/image12.jpeg';
 import CTA from '../components/CTA';
 
 const Advisory = () => {
@@ -15,7 +20,7 @@ const Advisory = () => {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: `url(${healthImage})`,
+            backgroundImage: `url(${image13Image})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -145,7 +150,7 @@ const Advisory = () => {
             >
               <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                style={{ backgroundImage: `url(${healthImage})` }}
+                style={{ backgroundImage: `url(${adv1Image})` }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-accent via-accent/65 to-accent/10" />
               <div className="absolute inset-4 rounded-xl border border-white/15" />
@@ -191,7 +196,7 @@ const Advisory = () => {
                 </div>
                 <div className="mt-5 overflow-hidden rounded-xl border border-primary/10 bg-primary/5 p-1.5">
                   <img
-                    src={healthImage}
+                    src={adv2Image}
                     alt="Advisory risk consultation"
                     className="aspect-[16/6] w-full rounded-lg object-cover object-center brightness-95 transition-transform duration-700 group-hover:scale-105"
                   />
@@ -247,21 +252,21 @@ const Advisory = () => {
                   {
                     title: 'Anticipating Emerging Risks',
                     text: 'Identifying macro-economic, climate, and geopolitical shifts before they impact the portfolio.',
-                    image: heroImage,
+                    image: image13Image,
                     accent: 'from-primary/90 via-primary/45 to-transparent',
                     className: 'col-span-2 row-span-2 lg:col-span-8 lg:row-span-2 min-h-[240px] sm:min-h-[280px]',
                   },
                   {
                     title: 'Optimizing Retention',
                     text: 'Using actuarial insights to find the exact mathematical balance between risk retention and transfer.',
-                    image: heroMobileImage,
+                    image: adv3Image,
                     accent: 'from-accent/90 via-primary/45 to-transparent',
                     className: 'col-span-1 lg:col-span-4 min-h-[150px] sm:min-h-[170px]',
                   },
                   {
                     title: 'Capacity Mapping',
                     text: 'Leveraging our global network to identify which markets have the appetite for specific, complex exposures.',
-                    image: healthImage,
+                    image: image12Image,
                     accent: 'from-primary/90 via-secondary/35 to-transparent',
                     className: 'col-span-1 lg:col-span-4 min-h-[150px] sm:min-h-[170px]',
                   },

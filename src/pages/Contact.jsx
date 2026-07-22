@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, MapPin, Mail, Phone, Clock, Send, Building2, Globe } from 'lucide-react';
 import healthImage from '../assets/life2.jpg';
+import pill4Image from '../assets/pill4.jpeg';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -35,7 +36,7 @@ const Contact = () => {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: `url(${healthImage})`,
+            backgroundImage: `url(${pill4Image})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

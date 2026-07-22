@@ -4,6 +4,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 import pill1Image from '../assets/pill1.jpeg'
 import pill2Image from '../assets/pill2.jpeg'
 import pill3Image from '../assets/pill3.avif'
+import pill8Image from '../assets/pill8.jpeg'
 
 const pillars = [
   {
@@ -14,7 +15,7 @@ const pillars = [
   {
     title: 'Technical Excellence',
     text: 'Deep expertise in treaty and facultative structuring.',
-    image: pill2Image,
+    image: pill8Image,
   },
   {
     title: 'Global Capacity',
